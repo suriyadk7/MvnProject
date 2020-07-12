@@ -7,7 +7,7 @@ pipeline {
             steps {
               echo 'HELLO'
                 }
-            }
+            
         }
 
         stage ('Package Stage') {
@@ -15,7 +15,7 @@ pipeline {
             steps {
                  echo 'HOW are you'
                 }
-            }
+            
         }
 
 
