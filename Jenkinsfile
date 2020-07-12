@@ -5,7 +5,7 @@ pipeline {
         stage ('Clean Stage') {
 
             steps {
-                withMaven(maven : 'apache-maven-3.6.3') {
+                withMaven(maven : 'M2_HOME') {
                     bat 'mvn clean install'
                 }
             }
