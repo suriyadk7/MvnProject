@@ -5,8 +5,7 @@ pipeline {
         stage ('Clean Stage') {
 
             steps {
-                withMaven(maven : 'apache-maven-3.6.3') {
-                    bat 'mvn clean'
+              echo 'HELLO'
                 }
             }
         }
@@ -14,8 +13,7 @@ pipeline {
         stage ('Package Stage') {
 
             steps {
-                withMaven(maven : 'apache-maven-3.6.3') {
-                    bat 'mvn package'
+                 echo 'HOW are you'
                 }
             }
         }
