@@ -11,12 +11,7 @@ pipeline {
             }
         }
 
-        stage ('Package Stage') {
-
-            steps {
-                echo 'Hello'
-            }
-        }
+      
 
 
       
