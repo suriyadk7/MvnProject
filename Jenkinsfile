@@ -9,6 +9,14 @@ pipeline {
                 }
             
         }
+        
+        stage ('input'){
+        
+            steps{
+            input ('to you want to proceed to ww')
+            }
+        
+        }
 
         stage ('Package Stage') {
 
